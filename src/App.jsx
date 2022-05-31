@@ -1,6 +1,8 @@
+import AppSeguro from "./components/AppSeguro"
+
 function App() {
 return (
-    <h1>Aps</h1>
+    <AppSeguro />
   )
 }
 
