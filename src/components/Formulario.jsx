@@ -1,7 +1,10 @@
-import { Fragment } from 'react'
+import { Fragment, useContext } from 'react'
 import { MARCAS, YEARS, PLANES } from '../constants'
+import CotizadorContext from '../context/CotizadorProvider'
 
 function Formulario() {
+    const {  } = useContext(CotizadorContext)
+
   return (
     <> 
 
@@ -59,8 +62,6 @@ function Formulario() {
                                 name='plan'
                                 value={plan.id}
                             />
-                                
-                            
                         </Fragment>
                     ))}
                 </div>
