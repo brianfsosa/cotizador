@@ -3,8 +3,8 @@ import { MARCAS, YEARS, PLANES } from '../constants'
 import CotizadorContext from '../context/CotizadorProvider'
 
 function Formulario() {
-    const {  } = useContext(CotizadorContext)
-
+    const { modal, cambiarState } = useContext(CotizadorContext)
+    console.log(modal)
   return (
     <> 
 
