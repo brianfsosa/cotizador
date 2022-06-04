@@ -26,7 +26,7 @@ function Formulario() {
         >
             <div className='my-5'>
                 <label className='block mb-3 font-bold text-gray-400 uppercase'>
-                    Marca
+                    Marc
                 </label>
                 <select
                     name='marca'
