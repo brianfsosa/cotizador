@@ -5,7 +5,7 @@ import Error from './Error'
 
 function Formulario() {
     
-    const { datos, handleChangeDatos, error, setError } = useCotizador()
+    const { datos, handleChangeDatos, error, setError, cotizarSeguro } = useCotizador()
 
     const handleSubmit = e => {
         e.preventDefault()
@@ -13,7 +13,7 @@ function Formulario() {
             setError('Todos los campos son obligatorios')
             return
         }
-
+        cotizarSeguro()
         setError('')
     }
 
